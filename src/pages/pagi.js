@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PagiOne from "../sections/pagi-01"
+import PagiTwo from "../sections/pagi-02"
 
 const PagiPage = () => (
   <Layout>
@@ -10,8 +12,9 @@ const PagiPage = () => (
     <Link to="/sore">Lihat Sore</Link>
     <h1>Do'a Pagi</h1>
     <div className="section">
-        One
-        </div>
+      <PagiOne />
+      <PagiTwo />
+    </div>
   </Layout>
 )
 
