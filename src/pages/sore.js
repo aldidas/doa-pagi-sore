@@ -7,7 +7,9 @@ import SEO from "../components/seo"
 const SorePage = () => (
   <Layout>
     <SEO title="Do'a Sore" />
-    <Link to="/pagi">Lihat Pagi</Link>
+    <div className="mb-2">
+      <Link to="/pagi">&laquo; Lihat Pagi</Link>
+    </div>
     <h1>Do'a Sore</h1>
   </Layout>
 )
