@@ -2,9 +2,10 @@ import React, { useContext } from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import Toggle from "react-toggle"
+import classnames from "classnames"
 import { ThemeContext } from "../context/themeContext"
 
-const Header = ({ siteTitle }) => {
+const Header = ({ siteTitle, isFullHeight }) => {
   const { theme, setTheme } = useContext(ThemeContext)
   const handleThemeToggle = () => {
     if (theme === "light") {
@@ -13,9 +14,16 @@ const Header = ({ siteTitle }) => {
       setTheme("light")
     }
   }
+  const headerClass = classnames({
+    fixed: true,
+    'w-screen': true,
+    "bg-blue-500": true,
+    "py-4": true,
+    "flex-grow-0": isFullHeight,
+  })
   return (
-    <header className="bg-blue-500 py-4">
-      <div className="container mx-auto flex items-center place-content-between">
+    <header className={headerClass}>
+      <div className="container mx-auto px-4 flex items-center place-content-between">
         <h1 className="m-0">
           <Link
             to="/"
