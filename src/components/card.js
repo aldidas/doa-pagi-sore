@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Toggle from "./toggle"
 
 const Card = props => {
   const [isInaVis, setIsInaVis] = useState(false)
@@ -13,22 +14,26 @@ const Card = props => {
       {arabic ? arabic() : null}
       {indonesian && (
         <div>
-          <button className="px-2 py-1 rounded bg-primary mb-1 font-bold" onClick={() => setIsInaVis(!isInaVis)}>Artinya</button>
-          {isInaVis && (
-            <div className="text-sm">
-              {indonesian()}
-            </div>
-          )}
+          <button
+            className="px-2 py-1 rounded bg-primary flex justify-center items-center mb-1 font-bold"
+            onClick={() => setIsInaVis(!isInaVis)}
+          >
+            <Toggle isOpen={isInaVis} className="mr-1" />
+            Artinya
+          </button>
+          {isInaVis && <div className="text-sm">{indonesian()}</div>}
         </div>
       )}
       {info && (
         <div>
-          <button className="px-2 py-1 rounded bg-primary  mb-1 font-bold" onClick={() => setIsInfoVis(!isInfoVis)}>Faedah</button>
-          {isInfoVis && (
-            <div className="text-sm">
-              {info()}
-            </div>
-          )}
+          <button
+            className="px-2 py-1 rounded bg-primary flex justify-center items-center mb-1 font-bold"
+            onClick={() => setIsInfoVis(!isInfoVis)}
+          >
+            <Toggle isOpen={isInfoVis} className="mr-1" />
+            Faedah
+          </button>
+          {isInfoVis && <div className="text-sm">{info()}</div>}
         </div>
       )}
     </div>

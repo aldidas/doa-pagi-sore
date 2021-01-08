@@ -16,7 +16,7 @@ const Header = ({ siteTitle, isFullHeight }) => {
   }
   const headerClass = classnames({
     fixed: true,
-    'w-screen': true,
+    "w-screen": true,
     "bg-blue-500": true,
     "py-4": true,
     "flex-grow-0": isFullHeight,
@@ -35,12 +35,16 @@ const Header = ({ siteTitle, isFullHeight }) => {
             {siteTitle}
           </Link>
         </h1>
-        <Toggle
-          id="theme-toggle"
-          icons={false}
-          checked={theme === "light"}
-          onChange={handleThemeToggle}
-        />
+        <div className="flex justify-center items-center">
+          {theme === "light" ? "LIGHT" : "DARK"}
+          <Toggle
+            id="theme-toggle"
+            icons={false}
+            className="ml-2"
+            checked={theme === "light"}
+            onChange={handleThemeToggle}
+          />
+        </div>
       </div>
     </header>
   )

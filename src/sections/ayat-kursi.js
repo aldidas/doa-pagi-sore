@@ -6,7 +6,7 @@ const PagiOne = ({ number }) => {
   return (
     <Card
       number={number}
-      title="Membaca Ayat Qursi"
+      title="Membaca Ayat Kursi"
       arabic={() => (
         <Arabic>
           اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ، لاَ تَأْخُذُهُ
