@@ -6,9 +6,9 @@ import SEO from "../components/seo"
 
 const PagiPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Do'a Pagi" />
     <Link to="/sore">Lihat Sore</Link>
-    <h1>Pagi</h1>
+    <h1>Do'a Pagi</h1>
     <div className="section">
         One
         </div>
