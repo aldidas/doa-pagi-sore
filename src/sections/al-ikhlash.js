@@ -24,7 +24,7 @@ const PagiTwo = ({ number }) => {
           Katakanlah: Dialah Allah, Yang Maha Esa. Allah adalah ilah yang
           bergantung kepada-Nya segala urusan. Dia tidak beranak dan tiada pula
           diperanakkan, dan tidak ada seorang pun yang setara dengan Dia.” (QS.
-          Al Ikhlas: 1-4) (Dibaca 3 x)
+          Al Ikhlas: 1-4)
         </p>
       )}
       info={() => (
@@ -33,6 +33,7 @@ const PagiTwo = ({ number }) => {
           petang, maka segala sesuatu akan dicukupkan untuknya.
         </p>
       )}
+      repeat={3}
     />
   )
 }

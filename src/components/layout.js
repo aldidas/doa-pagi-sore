@@ -12,6 +12,7 @@ import classnames from "classnames"
 import { ThemeContext } from "../context/themeContext"
 
 import Header from "./header"
+import Counter from "./counter"
 import "./layout.css"
 
 const Layout = ({ children, isFullHeight }) => {
@@ -56,11 +57,12 @@ const Layout = ({ children, isFullHeight }) => {
         siteTitle={data.site.siteMetadata?.title || `Title`}
       />
       <main
-        style={{ paddingTop: isFullHeight ? 0 : 100 }}
+        style={{ paddingTop: isFullHeight ? 0 : 100, paddingBottom: 60 }}
         className={mainClass}
       >
         {children}
       </main>
+      <Counter />
     </div>
   )
 }

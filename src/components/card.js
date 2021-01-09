@@ -4,13 +4,14 @@ import Toggle from "./toggle"
 const Card = props => {
   const [isInaVis, setIsInaVis] = useState(false)
   const [isInfoVis, setIsInfoVis] = useState(false)
-  const { number, title, arabic, indonesian, info } = props
+  const { number, title, arabic, indonesian, info, repeat } = props
   return (
     <div className="p-4 bg-secondary rounded-lg mb-4">
       <div className="flex justify-start items-center py-2">
         <span className="mr-4 italic text-4xl text-center block">{number}</span>
         <h3 className="m-0">{title}</h3>
       </div>
+      <h5>dibaca {repeat || 1} kali</h5>
       {arabic ? arabic() : null}
       {indonesian && (
         <div>

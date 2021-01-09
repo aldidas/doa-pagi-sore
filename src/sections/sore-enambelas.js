@@ -17,7 +17,7 @@ const SoreSixteen = ({ number }) => {
       indonesian={() => (
         <p>
           “Aku berlindung dengan kalimat-kalimat Allah yang sempurna dari
-          kejahatan makhluk yang diciptakanNya.” (Dibaca 3 x pada waktu petang)
+          kejahatan makhluk yang diciptakanNya.”
         </p>
       )}
       info={() => (
@@ -26,6 +26,7 @@ const SoreSixteen = ({ number }) => {
           binatang (seperti: kalajengking) yang mencelakakannya di malam itu.
         </p>
       )}
+      repeat={3}
     />
   )
 }

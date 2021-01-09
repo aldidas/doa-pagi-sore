@@ -29,8 +29,7 @@ const PagiNine = ({ number }) => {
           tenteramkanlah aku dari rasa takut. Ya Allah, peliharalah aku dari
           muka, belakang, kanan, kiri dan atasku. Aku berlindung dengan
           kebesaran-Mu, agar aku tidak disambar dari bawahku (oleh ular atau
-          tenggelam dalam bumi dan lain-lain yang membuat aku jatuh).” (Dibaca 1
-          x)
+          tenggelam dalam bumi dan lain-lain yang membuat aku jatuh).”
         </p>
       )}
       info={() => (

@@ -26,7 +26,7 @@ const PagiTen = ({ number }) => {
           berlindung kepadaMu dari kejahatan diriku, setan dan balatentaranya
           (godaan untuk berbuat syirik pada Allah), dan aku (berlindung
           kepada-Mu) dari berbuat kejelekan terhadap diriku atau menyeretnya
-          kepada seorang muslim.” (Dibaca 1 x)
+          kepada seorang muslim.”
         </p>
       )}
       info={() => (

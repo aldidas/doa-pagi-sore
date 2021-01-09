@@ -20,8 +20,7 @@ const PagiSix = ({ number }) => {
           “Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi,
           dan dengan rahmat dan pertolongan-Mu kami memasuki waktu petang.
           Dengan rahmat dan pertolongan-Mu kami hidup dan dengan kehendak-Mu
-          kami mati. Dan kepada-Mu kebangkitan (bagi semua makhluk).” (Dibaca 1
-          x)
+          kami mati. Dan kepada-Mu kebangkitan (bagi semua makhluk).”
         </p>
       )}
     />

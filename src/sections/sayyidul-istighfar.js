@@ -26,8 +26,7 @@ const PagiSeven = ({ number }) => {
           semampuku dan aku yakin akan janji-Mu (berupa surga untukku). Aku
           berlindung kepada-Mu dari kejelekan yang kuperbuat. Aku mengakui
           nikmat-Mu kepadaku dan aku mengakui dosaku. Oleh karena itu, ampunilah
-          aku. Sesungguhnya tiada yang mengampuni dosa kecuali Engkau.” (Dibaca
-          1 x)
+          aku. Sesungguhnya tiada yang mengampuni dosa kecuali Engkau.”
         </p>
       )}
       info={() => (

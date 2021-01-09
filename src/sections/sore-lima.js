@@ -30,7 +30,7 @@ const SoreFive = ({ number }) => {
           berlindung kepadaMu dari kejahatan malam ini dan kejahatan sesudahnya.
           Wahai Rabbku, aku berlindung kepadaMu dari kemalasan dan kejelekan di
           hari tua. Wahai Rabbku, aku berlindung kepada-Mu dari siksaan di
-          neraka dan siksaan di kubur.” (Dibaca 1 x)
+          neraka dan siksaan di kubur.”
         </p>
       )}
       info={() => (

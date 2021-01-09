@@ -19,7 +19,7 @@ const PagiEleven = ({ number }) => {
         <p>
           “Dengan nama Allah yang bila disebut, segala sesuatu di bumi dan
           langit tidak akan berbahaya, Dia-lah Yang Maha Mendengar lagi Maha
-          Mengetahui.” (Dibaca 3 x)
+          Mengetahui.”
         </p>
       )}
       info={() => (
@@ -29,6 +29,7 @@ const PagiEleven = ({ number }) => {
           yang tiba-tiba memudaratkannya.
         </p>
       )}
+      repeat={3}
     />
   )
 }

@@ -25,7 +25,7 @@ const IndexPage = () => (
         style={size}
         className="text-2xl border-2 block flex justify-center items-center rounded-full"
       >
-        Sore
+        Petang
       </Link>
     </div>
   </Layout>

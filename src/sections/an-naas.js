@@ -25,7 +25,7 @@ const PagiFour = ({ number }) => {
           Katakanlah: Aku berlindung kepada Rabb manusia. Raja manusia. Sembahan
           manusia, dari kejahatan (bisikan) syaitan yang biasa bersembunyi, yang
           membisikkan (kejahatan) ke dalam dada manusia, dari jin dan manusia.”
-          (QS. An Naas: 1-6) (Dibaca 3 x)
+          (QS. An Naas: 1-6)
         </p>
       )}
       info={() => (
@@ -34,6 +34,7 @@ const PagiFour = ({ number }) => {
           petang, maka segala sesuatu akan dicukupkan untuknya.
         </p>
       )}
+      repeat={3}
     />
   )
 }

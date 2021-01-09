@@ -18,7 +18,7 @@ const PagiTwelve = ({ number }) => {
       indonesian={() => (
         <p>
           “Aku ridha Allah sebagai Rabb, Islam sebagai agama dan Muhammad
-          shallallahu ‘alaihi wa sallam sebagai nabi.” (Dibaca 3 x)
+          shallallahu ‘alaihi wa sallam sebagai nabi.”
         </p>
       )}
       info={() => (
@@ -28,6 +28,7 @@ const PagiTwelve = ({ number }) => {
           ridha Allah.
         </p>
       )}
+      repeat={3}
     />
   )
 }

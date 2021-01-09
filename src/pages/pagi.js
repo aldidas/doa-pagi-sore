@@ -26,7 +26,7 @@ import PagiTwenty from "../sections/pagi-duapuluh"
 
 const PagiPage = () => (
   <Layout>
-    <SEO title="Do'a Pagi" />
+    <SEO title="Dzikir Pagi" />
     <div className="mb-2">
       <div className="inline-block">
         <Link to="/sore" className="flex justify-center items-center">
@@ -45,11 +45,11 @@ const PagiPage = () => (
               />
             </svg>
           </div>
-          Lihat Sore
+          Lihat Petang
         </Link>
       </div>
     </div>
-    <h2>Do'a Pagi</h2>
+    <h2>Dzikir Pagi</h2>
     <div className="section">
       <PagiOne number={1} />
       <PagiTwo number={2} />

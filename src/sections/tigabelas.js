@@ -21,7 +21,7 @@ const PagiThirteen = ({ number }) => {
           “Wahai Rabb Yang Maha Hidup, wahai Rabb Yang Berdiri Sendiri (tidak
           butuh segala sesuatu), dengan rahmat-Mu aku minta pertolongan,
           perbaikilah segala urusanku dan jangan diserahkan kepadaku sekali pun
-          sekejap mata (tanpa mendapat pertolongan dariMu).” (Dibaca 1 x)
+          sekejap mata (tanpa mendapat pertolongan dariMu).”
         </p>
       )}
       info={() => (

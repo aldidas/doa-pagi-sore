@@ -19,7 +19,7 @@ const PagiSixteen = ({ number }) => {
         <p>
           “Tidak ada ilah yang berhak disembah selain Allah semata, tidak ada
           sekutu bagiNya. Bagi-Nya kerajaan dan segala pujian. Dia-lah yang
-          berkuasa atas segala sesuatu.” (Dibaca 10 x)
+          berkuasa atas segala sesuatu.”
         </p>
       )}
       info={() => (
@@ -32,6 +32,7 @@ const PagiSixteen = ({ number }) => {
           keutamaan semisal itu pula.
         </p>
       )}
+      repeat={10}
     />
   )
 }

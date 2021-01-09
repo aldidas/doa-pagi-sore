@@ -16,6 +16,7 @@ const PagiTwenty = ({ number }) => {
           x dalam sehari)
         </p>
       )}
+      repeat={100}
     />
   )
 }

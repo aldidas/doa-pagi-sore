@@ -11,7 +11,7 @@ const PagiFifteen = ({ number }) => {
         return <Arabic>سُبْحَانَ اللهِ وَبِحَمْدِهِ</Arabic>
       }}
       indonesian={() => (
-        <p>“Maha suci Allah, aku memuji-Nya.” (Dibaca 100 x)</p>
+        <p>“Maha suci Allah, aku memuji-Nya.”</p>
       )}
       info={() => (
         <p>
@@ -21,6 +21,7 @@ const PagiFifteen = ({ number }) => {
           mengucapkan semisal atau lebih dari itu.
         </p>
       )}
+      repeat={100}
     />
   )
 }

@@ -19,7 +19,7 @@ const PagiEightteen = ({ number }) => {
         <p>
           “Maha Suci Allah, aku memujiNya sebanyak makhluk-Nya, sejauh
           kerelaan-Nya, seberat timbangan ‘Arsy-Nya dan sebanyak tinta tulisan
-          kalimat-Nya.” (Dibaca 3 x di waktu pagi saja)
+          kalimat-Nya.”
         </p>
       )}
       info={() => (
@@ -29,6 +29,7 @@ const PagiEightteen = ({ number }) => {
           dari selepas Shubuh sampai waktu Dhuha.
         </p>
       )}
+      repeat={3}
     />
   )
 }

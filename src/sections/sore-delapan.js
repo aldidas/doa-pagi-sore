@@ -23,7 +23,7 @@ const SoreEight = ({ number }) => {
           malaikat yang memikul ‘Arys-Mu, malaikat-malaikat dan seluruh
           makhluk-Mu, bahwa sesungguhnya Engkau adalah Allah, tiada ilah yang
           berhak disembah kecuali Engkau semata, tiada sekutu bagi-Mu dan
-          sesungguhnya Muhammad adalah hamba dan utusan-Mu.” (Dibaca 4 x)
+          sesungguhnya Muhammad adalah hamba dan utusan-Mu.”
         </p>
       )}
       info={() => (
@@ -33,6 +33,7 @@ const SoreEight = ({ number }) => {
           neraka.
         </p>
       )}
+      repeat={4}
     />
   )
 }

@@ -32,6 +32,7 @@ const PagiSeventeen = ({ number }) => {
           mengamalkan lebih dari itu.
         </p>
       )}
+      repeat={100}
     />
   )
 }

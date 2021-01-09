@@ -19,7 +19,7 @@ const PagiNineteen = ({ number }) => {
         <p>
           “Ya Allah, sungguh aku memohon kepada-Mu ilmu yang bermanfaat (bagi
           diriku dan orang lain), rizki yang halal dan amal yang diterima (di
-          sisi-Mu dan mendapatkan ganjaran yang baik).” (Dibaca 1 x setelah
+          sisi-Mu dan mendapatkan ganjaran yang baik).” (Dibaca setelah
           salam dari shalat Shubuh)
         </p>
       )}

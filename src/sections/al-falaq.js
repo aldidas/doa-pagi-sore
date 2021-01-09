@@ -26,7 +26,7 @@ const PagiThree = ({ number }) => {
           kejahatan makhluk-Nya, dan dari kejahatan malam apabila telah gelap
           gulita, dan dari kejahatan-kejahatan wanita tukang sihir yang
           menghembus pada buhul-buhul, dan dari kejahatan orang yang dengki
-          apabila ia dengki”. (QS. Al Falaq: 1-5) (Dibaca 3 x)
+          apabila ia dengki”. (QS. Al Falaq: 1-5)
         </p>
       )}
       info={() => (
@@ -35,6 +35,7 @@ const PagiThree = ({ number }) => {
           petang, maka segala sesuatu akan dicukupkan untuknya.
         </p>
       )}
+      repeat={3}
     />
   )
 }

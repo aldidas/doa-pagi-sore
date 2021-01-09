@@ -22,7 +22,7 @@ import SoreSixteen from "../sections/sore-enambelas"
 
 const SorePage = () => (
   <Layout>
-    <SEO title="Do'a Sore" />
+    <SEO title="Dzikir Petang" />
     <div className="mb-2">
       <div className="inline-block">
         <Link to="/pagi" className="flex justify-center items-center">
@@ -45,7 +45,7 @@ const SorePage = () => (
         </Link>
       </div>
     </div>
-    <h2>Do'a Sore</h2>
+    <h2>Dzikir Petang</h2>
 
     <div className="section">
       <SoreOne number={1} />

@@ -20,7 +20,7 @@ const SoreSix = ({ number }) => {
           “Ya Allah, dengan rahmat dan pertolongan-Mu kami memasuki waktu
           petang, dan dengan rahmat dan pertolongan-Mu kami memasuki waktu pagi.
           Dengan rahmat dan pertolonganMu kami hidup dan dengan kehendakMu kami
-          mati. Dan kepada-Mu tempat kembali (bagi semua makhluk).” (Dibaca 1 x)
+          mati. Dan kepada-Mu tempat kembali (bagi semua makhluk).”
         </p>
       )}
     />

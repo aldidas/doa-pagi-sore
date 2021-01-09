@@ -31,7 +31,7 @@ const PagiFive = ({ number }) => {
           berlindung kepada-Mu dari kejahatan hari ini dan kejahatan sesudahnya.
           Wahai Rabbku, aku berlindung kepada-Mu dari kemalasan dan kejelekan di
           hari tua. Wahai Rabbku, aku berlindung kepada-Mu dari siksaan di
-          neraka dan siksaan di alam kubur.” (Dibaca 1 x)
+          neraka dan siksaan di alam kubur.”
         </p>
       )}
       info={() => (

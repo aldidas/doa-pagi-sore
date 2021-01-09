@@ -22,8 +22,7 @@ const PagiFourteen = ({ number }) => {
           “Di waktu pagi kami memegang agama Islam, kalimat ikhlas (kalimat
           syahadat), agama Nabi kami Muhammad shallallahu ‘alaihi wa sallam, dan
           agama bapak kami Ibrahim, yang berdiri di atas jalan yang lurus,
-          muslim dan tidak tergolong orang-orang musyrik.” (Dibaca 1 x di pagi
-          hari saja)
+          muslim dan tidak tergolong orang-orang musyrik.”
         </p>
       )}
     />
