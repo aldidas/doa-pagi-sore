@@ -25,6 +25,21 @@ const PagiFourteen = ({ number }) => {
           muslim dan tidak tergolong orang-orang musyrik.”
         </p>
       )}
+      source={() => (
+        <>
+          <p>
+            HR. Ahmad (3: 406). Syaikh Syu’aib Al Arnauth mengatakan bahwa sanad
+            hadits ini shahih sesuai syarat Bukhari Muslim. Lihat pula As
+            Silsilah Ash Shahihah no. 2989.
+          </p>
+          <p>
+            Catatan: Dzikir ini hanya dibaca di pagi hari. Riwayat yang
+            menyatakan dibaca juga saat petang hari adalah riwayat yang lemah.
+            Sebagaimana dinyatakan oleh guru penulis, Syaikh ‘Abdul ‘Aziz Ath
+            Thorifi dalam Adzkar Ash Shobaah wal Masaa’, hal. 65.
+          </p>
+        </>
+      )}
     />
   )
 }

@@ -30,6 +30,14 @@ const PagiThirteen = ({ number }) => {
           Fathimah supaya diamalkan pagi dan petang.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Ibnu As Sunni dalam ‘Amalul Yaum wal Lailah no. 46, An Nasai dalam
+          Al Kubro (381/ 570), Al Bazzar dalam musnadnya (4/ 25/ 3107), Al Hakim
+          (1: 545). Sanad hadits ini hasan sebagaimana dikatakan oleh Syaikh Al
+          Albani dalam As Silsilah Ash Shahihah no. 227.
+        </p>
+      )}
     />
   )
 }

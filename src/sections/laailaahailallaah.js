@@ -32,6 +32,7 @@ const PagiSixteen = ({ number }) => {
           keutamaan semisal itu pula.
         </p>
       )}
+      source={() => <p>HR. An Nasai Al Kubra 6: 10.</p>}
       repeat={10}
     />
   )

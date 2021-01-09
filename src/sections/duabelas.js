@@ -28,6 +28,12 @@ const PagiTwelve = ({ number }) => {
           ridha Allah.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Abu Daud no. 5072, Tirmidzi no. 3389. Al Hafizh Abu Thohir
+          mengatakan bahwa hadits ini hasan.
+        </p>
+      )}
       repeat={3}
     />
   )

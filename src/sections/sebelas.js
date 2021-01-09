@@ -29,6 +29,12 @@ const PagiEleven = ({ number }) => {
           yang tiba-tiba memudaratkannya.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Abu Daud no. 5088, 5089, Tirmidzi no. 3388, dan Ibnu Majah no.
+          3869. Al Hafizh Abu Thohir mengatakan bahwa sanad hadits ini hasan.
+        </p>
+      )}
       repeat={3}
     />
   )

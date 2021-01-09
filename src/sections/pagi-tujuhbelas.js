@@ -32,6 +32,7 @@ const PagiSeventeen = ({ number }) => {
           mengamalkan lebih dari itu.
         </p>
       )}
+      source={() => <p>HR. Bukhari no. 3293 dan Muslim no. 2691.</p>}
       repeat={100}
     />
   )

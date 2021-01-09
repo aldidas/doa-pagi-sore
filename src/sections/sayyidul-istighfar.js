@@ -38,6 +38,7 @@ const PagiSeven = ({ number }) => {
           termasuk penghuni surga.
         </p>
       )}
+      source={() => <p>HR. Bukhari no. 6306.</p>}
     />
   )
 }

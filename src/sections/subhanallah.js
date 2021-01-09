@@ -10,9 +10,7 @@ const PagiFifteen = ({ number }) => {
       arabic={() => {
         return <Arabic>سُبْحَانَ اللهِ وَبِحَمْدِهِ</Arabic>
       }}
-      indonesian={() => (
-        <p>“Maha suci Allah, aku memuji-Nya.”</p>
-      )}
+      indonesian={() => <p>“Maha suci Allah, aku memuji-Nya.”</p>}
       info={() => (
         <p>
           Barangsiapa yang mengucapkan kalimat ‘subhanallah wa bi hamdih’ di
@@ -21,6 +19,7 @@ const PagiFifteen = ({ number }) => {
           mengucapkan semisal atau lebih dari itu.
         </p>
       )}
+      source={() => <p>HR. Muslim no. 2692.</p>}
       repeat={100}
     />
   )

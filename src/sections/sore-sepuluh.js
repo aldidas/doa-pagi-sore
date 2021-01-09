@@ -36,6 +36,23 @@ const PagiTen = ({ number }) => {
           tidur.
         </p>
       )}
+      source={() => (
+        <>
+          <p>
+            HR. Tirmidzi no. 3392 dan Abu Daud no. 5067. Al Hafizh Abu Thohir
+            mengatakan bahawa sanad hadits ini shahih. Adapun kalimat terakhir
+          </p>
+          <Arabic small>
+            (وَأَنْ أَقْتَرِفَ عَلَى نَفْسِيْ سُوْءًا أَوْ أَجُرُّهُ إِلَى
+            مُسْلِمٍ)
+          </Arabic>
+          <p>
+            adalah tambahan dari riwayat Ahmad 2: 196. Dikomentari oleh Syaikh
+            Syu’aib Al Arnauth bahwa hadits tersebut shahih dilihat dari jalur
+            lainnya (shahih lighoirihi).
+          </p>
+        </>
+      )}
     />
   )
 }

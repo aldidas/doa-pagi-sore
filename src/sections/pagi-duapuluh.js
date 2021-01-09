@@ -16,6 +16,7 @@ const PagiTwenty = ({ number }) => {
           x dalam sehari)
         </p>
       )}
+      source={() => <p>HR. Bukhari no. 6307 dan Muslim no. 2702.</p>}
       repeat={100}
     />
   )

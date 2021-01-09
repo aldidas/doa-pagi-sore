@@ -40,6 +40,12 @@ const SoreNine = ({ number }) => {
           gangguan yang datang dari berbagai arah.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Abu Daud no. 5074 dan Ibnu Majah no. 3871. Al Hafizh Abu Thohir
+          mengatakan bahwa sanad hadits ini shahih.
+        </p>
+      )}
     />
   )
 }

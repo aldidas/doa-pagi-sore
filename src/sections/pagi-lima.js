@@ -44,6 +44,11 @@ const PagiFive = ({ number }) => {
           dan siksa neraka yang merupakan siksa terberat di hari kiamat kelak.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Muslim no. 2723. Lihat keterangan Syarh Hisnul Muslim, hal. 161.
+        </p>
+      )}
     />
   )
 }

@@ -33,6 +33,12 @@ const PagiEight = ({ number }) => {
           neraka.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Abu Daud no. 5069. Al Hafizh Abu Thohir mengatakan bahwa hadits
+          ini hasan.
+        </p>
+      )}
       repeat={4}
     />
   )

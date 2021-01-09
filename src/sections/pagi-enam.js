@@ -23,6 +23,12 @@ const PagiSix = ({ number }) => {
           kami mati. Dan kepada-Mu kebangkitan (bagi semua makhluk).”
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Tirmidzi no. 3391 dan Abu Daud no. 5068. Al Hafizh Abu Thohir
+          mengatakan bahwa sanad hadits ini shahih.
+        </p>
+      )}
     />
   )
 }

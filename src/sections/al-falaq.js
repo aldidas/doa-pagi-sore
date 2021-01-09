@@ -35,6 +35,12 @@ const PagiThree = ({ number }) => {
           petang, maka segala sesuatu akan dicukupkan untuknya.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Abu Daud no. 5082, Tirmidzi no. 3575. Al Hafizh Abu Thohir
+          mengatakan bahwa sanad hadits ini hasan.
+        </p>
+      )}
       repeat={3}
     />
   )

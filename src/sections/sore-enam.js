@@ -23,6 +23,12 @@ const SoreSix = ({ number }) => {
           mati. Dan kepada-Mu tempat kembali (bagi semua makhluk).”
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Tirmidzi no. 3391 dan Abu Daud no. 5068. Al Hafizh Abu Thohir
+          mengatakan bahwa sanad hadits ini shahih.
+        </p>
+      )}
     />
   )
 }

@@ -26,6 +26,14 @@ const SoreSixteen = ({ number }) => {
           binatang (seperti: kalajengking) yang mencelakakannya di malam itu.
         </p>
       )}
+      source={() => (
+        <p>
+          HR. Ahmad 2: 290. Syaikh Syu’aib Al Arnauth mengatakan bahwa sanad
+          hadits ini shahih sesuai syarat Muslim. Lihat komentar Syaikh Syu’aib
+          Al Arnauth terhadap hadits ini untuk pengertian hummah diartikan
+          dengan racun atau sengatan kalajengking.
+        </p>
+      )}
       repeat={3}
     />
   )

@@ -29,6 +29,7 @@ const PagiEightteen = ({ number }) => {
           dari selepas Shubuh sampai waktu Dhuha.
         </p>
       )}
+      source={() => <p>HR. Muslim no. 2726.</p>}
       repeat={3}
     />
   )
