@@ -8,3 +8,7 @@ Diambil dari website [rumaysho.com](https://rumaysho.com):
 ## 🚀 Quick start
 
 Dibuat ulang dengan menggunakan [Gatsby.js](https://gatsbyjs.com). Untuk mulai menggunakan Gatsby.js, silakan klik [di sini](https://gatsbyjs.com/docs/tutorial/part-zero/).
+
+## Preview
+
+Hasil akhir dapat dilihat [di sini](https://doapagisore.ubicilembu.com/pagi).
