@@ -25,7 +25,7 @@ import PagiNineteen from "../sections/pagi-sembilanbelas"
 import PagiTwenty from "../sections/pagi-duapuluh"
 
 const PagiPage = () => (
-  <Layout>
+  <Layout isCounterVisible>
     <SEO title="Dzikir Pagi" />
     <div className="mb-2">
       <div className="inline-block">

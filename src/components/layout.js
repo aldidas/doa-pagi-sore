@@ -15,7 +15,7 @@ import Header from "./header"
 import Counter from "./counter"
 import "./layout.css"
 
-const Layout = ({ children, isFullHeight }) => {
+const Layout = ({ children, isFullHeight, isCounterVisible }) => {
   const { theme } = useContext(ThemeContext)
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -62,7 +62,7 @@ const Layout = ({ children, isFullHeight }) => {
       >
         {children}
       </main>
-      <Counter />
+      { isCounterVisible && <Counter /> }
     </div>
   )
 }

@@ -21,7 +21,7 @@ import SoreFifteen from "../sections/laailaahailallaah"
 import SoreSixteen from "../sections/sore-enambelas"
 
 const SorePage = () => (
-  <Layout>
+  <Layout isCounterVisible>
     <SEO title="Dzikir Petang" />
     <div className="mb-2">
       <div className="inline-block">
