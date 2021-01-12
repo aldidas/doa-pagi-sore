@@ -10,7 +10,7 @@ const Counter = () => {
     }
   }
   return (
-    <div className="bg-primary fixed inset-x-0 bottom-0 flex items-center p-2 space-x-2">
+    <div className="bg-primary fixed inset-x-4 bottom-4 flex items-center p-2 space-x-2 shadow-md rounded-lg">
       <h5 className="mb-1">Counter</h5>
       <button
         className="flex h-10 justify-center items-center shadow-lg rounded-lg flex-grow bg-secondary"
