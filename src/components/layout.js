@@ -57,7 +57,7 @@ const Layout = ({ children, isFullHeight, isCounterVisible }) => {
         siteTitle={data.site.siteMetadata?.title || `Title`}
       />
       <main
-        style={{ paddingTop: isFullHeight ? 0 : 100, paddingBottom: 60 }}
+        style={{ paddingTop: isFullHeight ? 0 : 100, paddingBottom: 110 }}
         className={mainClass}
       >
         {children}
